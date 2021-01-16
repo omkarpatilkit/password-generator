@@ -16,10 +16,15 @@ for i in range(nr_letters):
     a = random.randint(0, len(letters)-1)
     l.append(letters[a])
 print(l)
+
 for i in range(nr_numbers):
+    a = random.randint(0, len(numbers)-1)
+    n.append(numbers[a])
 print(n)
 
 for i in range(nr_symbols):
+    a = random.randint(0, len(symbols)-1)
+    s.append(symbols[a])
 print(s)
 
 final = l+s+n
