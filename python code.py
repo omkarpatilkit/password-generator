@@ -30,7 +30,7 @@ print(s)
 final = l+s+n
 pswd = ''
 
-set_final = set(final)0
+set_final = set(final)
 print(set_final)
 for i in set_final:
     pswd = pswd+i
