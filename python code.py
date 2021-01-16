@@ -33,6 +33,6 @@ pswd = ''
 set_final = set(final)0
 print(set_final)
 for i in set_final:
-    pswd = pswd.join(i)
+    pswd = pswd+i
 
 print(pswd)
