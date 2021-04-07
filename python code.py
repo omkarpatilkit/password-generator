@@ -36,3 +36,4 @@ for i in set_final:
     pswd = pswd+i
 
 print(pswd)
+#get password
